@@ -6,9 +6,11 @@ repositories {
     mavenCentral()
 }
 
+val vertxVersion = "4.4.1"
+
 dependencies {
-    testImplementation("io.vertx:vertx-kafka-client:3.9.0")
-    testImplementation("io.vertx:vertx-junit5:3.9.0")
+    testImplementation("io.vertx:vertx-kafka-client:$vertxVersion")
+    testImplementation("io.vertx:vertx-junit5:$vertxVersion")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
 }
 
